@@ -1,32 +1,64 @@
-# Prerequisites
-*.d
+# IDE and Editor
+.cph
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# Compiled Object files
-*.slo
-*.lo
+
+# C++ Compiled Files
+*.bin
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
 *.out
+*.exe
 *.app
+*.i*86
+*.x86_64
+*.hex
+
+# Test Executables
+test
+test1
+test2
+test3
+a.out
+
+# Build Directories
+build/
+bin/
+obj/
+CMakeFiles/
+cmake-build-*/
+
+# CMake
+CMakeCache.txt
+*.cmake
+!CMakeLists.txt
+
+# Debugging
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# OS Specific
+.DS_Store
+Thumbs.db
+*.log
+
+# Java Compiled Files
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/

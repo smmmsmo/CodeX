@@ -1,0 +1,714 @@
+================================================================================
+COMPREHENSIVE C++ AND DATA STRUCTURES & ALGORITHMS LEARNING ROADMAP
+================================================================================
+Master C++ Programming with DSA and Advanced Topics
+Last Updated: February 2026
+
+================================================================================
+PART 1: C++ FUNDAMENTALS (Foundation Level)
+================================================================================
+
+1. Introduction to C++
+   - History and evolution of C++
+   - Setting up development environment (compilers, IDEs)
+   - Basic syntax and structure
+   - Hello World program
+
+2. Variables and Data Types
+   - Primitive data types (int, float, double, char, bool)
+   - Type modifiers (signed, unsigned, short, long)
+   - Constants and literals
+   - Type casting and conversions
+   - Variable scope and lifetime
+
+3. Operators
+   - Arithmetic operators (+, -, *, /, %)
+   - Comparison operators (==, !=, <, >, <=, >=)
+   - Logical operators (&&, ||, !)
+   - Bitwise operators (&, |, ^, ~, <<, >>)
+   - Assignment operators
+   - Conditional/Ternary operator (?:)
+   - Operator precedence and associativity
+
+4. Control Flow Statements
+   - if-else statements
+   - switch-case statements
+   - Loops: for, while, do-while
+   - Break and continue statements
+   - Jump statements (goto - avoid in practice)
+
+5. Functions
+   - Function declaration and definition
+   - Function parameters and arguments
+   - Return types and return statements
+   - Default parameters
+   - Function overloading
+   - Inline functions
+   - Recursive functions
+
+6. Arrays and Strings
+   - Single-dimensional arrays
+   - Multi-dimensional arrays
+   - Array declaration, initialization, and access
+   - C-style strings (char arrays)
+   - String operations
+   - Array passing to functions
+   - Variable-length arrays (VLA)
+
+7. Pointers and References
+   - Pointer basics and declaration
+   - Address-of operator (&)
+   - Dereference operator (*)
+   - Pointer arithmetic
+   - Arrays and pointers relationship
+   - Pointers to functions
+   - References vs Pointers
+   - Null pointers and nullptr
+
+8. Dynamic Memory Management
+   - Stack vs Heap memory
+   - new operator
+   - delete operator
+   - Dynamic arrays
+   - Memory leaks and how to avoid them
+   - Smart pointers (unique_ptr, shared_ptr, weak_ptr)
+
+================================================================================
+PART 2: OBJECT-ORIENTED PROGRAMMING (OOP)
+================================================================================
+
+9. Classes and Objects
+   - Class definition and object creation
+   - Access modifiers (public, private, protected)
+   - Member variables and member functions
+   - Constructors (default, parameterized, copy)
+   - Destructors
+   - Constructor initializer lists
+   - this pointer
+   - Const member functions
+
+10. Encapsulation
+    - Data hiding principles
+    - Getter and setter methods
+    - Class invariants
+    - Private vs public interface
+    - Information hiding best practices
+
+11. Inheritance
+    - Base and derived classes
+    - Types of inheritance (public, private, protected)
+    - Constructors and destructors in inheritance
+    - Function overriding
+    - Virtual functions
+    - Abstract classes and pure virtual functions
+    - Multiple inheritance
+    - Diamond problem and virtual inheritance
+
+12. Polymorphism
+    - Compile-time polymorphism (Function overloading, Operator overloading)
+    - Runtime polymorphism (Virtual functions, dynamic binding)
+    - Method overriding
+    - Virtual destructors
+    - RTTI (Run-Time Type Information)
+    - typeid() and dynamic_cast
+
+13. Operator Overloading
+    - Overloading arithmetic operators
+    - Overloading comparison operators
+    - Overloading assignment operator
+    - Overloading input/output operators (<<, >>)
+    - Overloading subscript operator []
+    - Overloading function call operator ()
+    - Overloading increment/decrement operators
+    - Rules and best practices for operator overloading
+
+14. Composition and Aggregation
+    - "has-a" relationships
+    - Composition vs Inheritance
+    - When to use composition over inheritance
+
+15. Static Members
+    - Static data members
+    - Static member functions
+    - Const static members
+    - Initialization of static members
+
+================================================================================
+PART 3: ADVANCED C++ CONCEPTS
+================================================================================
+
+16. Templates and Generic Programming
+    - Function templates
+    - Class templates
+    - Template parameters
+    - Template specialization (full and partial)
+    - Template instantiation
+    - Non-type template parameters
+    - Default template arguments
+    - Variadic templates
+    - Template metaprogramming
+
+17. Exception Handling
+    - try-catch-throw mechanism
+    - Exception types and custom exceptions
+    - Exception safety guarantees (strong, weak, nothrow)
+    - RAII (Resource Acquisition Is Initialization)
+    - Standard exceptions
+    - Exception specifications
+    - noexcept keyword
+
+18. File Input/Output
+    - ifstream, ofstream, fstream
+    - Binary and text file operations
+    - File positioning and seeking
+    - Stream manipulators
+    - Error handling in file operations
+
+19. Standard Template Library (STL)
+    - Containers: vector, deque, list, set, map, unordered_set, unordered_map
+    - Iterators (input, output, forward, bidirectional, random access)
+    - Algorithms: sort, find, transform, accumulate, etc.
+    - Functors and function objects
+    - Lambdas and function pointers
+    - Algorithm analysis with containers
+
+20. String Handling
+    - std::string class
+    - String operations (concatenation, substring, find, replace)
+    - String conversion utilities
+    - String views (std::string_view)
+    - Regular expressions (std::regex)
+
+21. Memory Management Best Practices
+    - RAII principle
+    - Smart pointers (unique_ptr, shared_ptr, weak_ptr)
+    - Move semantics
+    - Copy constructor and copy assignment operator
+    - Move constructor and move assignment operator
+    - Rule of five
+    - Avoiding common memory errors
+
+22. Modern C++ Features (C++11, C++14, C++17, C++20)
+    - Range-based for loops
+    - Auto keyword and type deduction
+    - constexpr and compile-time evaluation
+    - Enum class and scoped enumerations
+    - nullptr
+    - Initializer lists
+    - Attributes
+    - Structured bindings
+    - Concepts and constraints
+    - Coroutines
+
+23. Namespaces and Modular Programming
+    - Namespace definition and usage
+    - Nested namespaces
+    - Using directives and using declarations
+    - Avoiding namespace pollution
+    - Anonymous namespaces
+    - Namespace aliasing
+
+================================================================================
+PART 4: DATA STRUCTURES (Foundation)
+================================================================================
+
+24. Linear Data Structures
+
+    24.1 Array and Vector
+        - Dynamic arrays (vectors)
+        - Time and space complexity analysis
+        - Array operations (insert, delete, search, update)
+        - 2D and multi-dimensional arrays
+        - Sparse arrays and matrices
+        - Vector implementation details
+
+    24.2 Linked Lists
+        - Single linked lists
+        - Doubly linked lists
+        - Circular linked lists
+        - Operations: insertion, deletion, traversal, reversal
+        - Use cases and advantages over arrays
+        - Linked list implementation from scratch
+
+    24.3 Stacks
+        - LIFO (Last In First Out) principle
+        - Stack implementation (array and linked list based)
+        - Applications: expression evaluation, backtracking, DFS
+        - Push, pop, peek operations
+        - Balanced parentheses problem
+        - Infix to postfix conversion
+
+    24.4 Queues
+        - FIFO (First In First Out) principle
+        - Queue implementation (array and linked list based)
+        - Circular queues
+        - Priority queues
+        - Applications: BFS, scheduling, buffering
+        - Deques (double-ended queues)
+
+25. Non-Linear Data Structures
+
+    25.1 Trees
+        - Binary trees
+        - Binary search trees (BST)
+        - Tree traversals (inorder, preorder, postorder, level-order)
+        - Tree construction from traversals
+        - Height and depth of trees
+        - Balanced vs unbalanced trees
+        - AVL trees (self-balancing)
+        - Red-Black trees
+        - B-trees and B+ trees
+        - Segment trees
+        - Fenwick trees (Binary Indexed Trees)
+        - Tries (prefix trees)
+        - Suffix trees and suffix arrays
+
+    25.2 Heaps
+        - Min heaps and max heaps
+        - Heap property and structure
+        - Heapify operations
+        - Heap insertion and deletion
+        - Priority queue implementation using heaps
+        - Heap sort algorithm
+
+    25.3 Graphs
+        - Graph representation (adjacency matrix, adjacency list)
+        - Directed and undirected graphs
+        - Weighted and unweighted graphs
+        - Graph traversals (BFS, DFS)
+        - Topological sorting
+        - Shortest path algorithms (Dijkstra, Bellman-Ford, Floyd-Warshall)
+        - Minimum spanning tree (Kruskal, Prim)
+        - Strongly connected components
+        - Bipartite graphs
+        - Graph coloring
+        - Articulation points and bridges
+        - Network flow algorithms
+
+26. Hashing and Hash Tables
+    - Hash functions and hash codes
+    - Collision resolution techniques (chaining, open addressing)
+    - Load factor and rehashing
+    - Hash maps and hash sets
+    - Bloom filters
+    - Consistent hashing
+    - Hash table implementations and analysis
+
+27. Advanced Data Structures
+    - Disjoint Set Union (Union-Find) with path compression and union by rank
+    - Skip lists
+    - Treaps (Tree + Heap)
+    - Splay trees
+    - KD-trees for spatial indexing
+    - R-trees for multidimensional data
+    - Quadtrees
+
+================================================================================
+PART 5: ALGORITHMS (Comprehensive)
+================================================================================
+
+28. Sorting Algorithms
+    - Bubble sort (time: O(n²), space: O(1))
+    - Selection sort (time: O(n²), space: O(1))
+    - Insertion sort (time: O(n²), space: O(1))
+    - Merge sort (time: O(n log n), space: O(n))
+    - Quick sort (time: O(n log n) average, O(n²) worst, space: O(log n))
+    - Heap sort (time: O(n log n), space: O(1))
+    - Counting sort (time: O(n+k), space: O(n+k))
+    - Radix sort (time: O(nk), space: O(n+k))
+    - Bucket sort
+    - Shell sort
+    - Comparison of sorting algorithms
+    - Stability in sorting algorithms
+
+29. Searching Algorithms
+    - Linear search (time: O(n))
+    - Binary search (time: O(log n))
+    - Jump search
+    - Exponential search
+    - Interpolation search
+    - Ternary search
+    - Application in finding patterns
+
+30. Divide and Conquer Paradigm
+    - Merge sort
+    - Quick sort
+    - Binary search
+    - Strassen's matrix multiplication
+    - Maximum subarray problem (Kadane's algorithm)
+    - Closest pair of points
+
+31. Dynamic Programming
+    - Overlapping subproblems
+    - Optimal substructure
+    - Memoization (top-down approach)
+    - Tabulation (bottom-up approach)
+    - Classic problems:
+        * Fibonacci sequence
+        * 0/1 Knapsack problem
+        * Unbounded Knapsack
+        * Coin change problem
+        * Longest common subsequence (LCS)
+        * Longest increasing subsequence (LIS)
+        * Edit distance (Levenshtein distance)
+        * Matrix chain multiplication
+        * All-pairs shortest path (Floyd-Warshall)
+        * Rod cutting problem
+        * House robber problem
+        * Word break problem
+        * Palindrome problems
+        * Game theory problems
+
+32. Greedy Algorithms
+    - Greedy choice property
+    - Optimal substructure
+    - Classic problems:
+        * Activity selection
+        * Huffman coding
+        * Fractional knapsack
+        * Job sequencing with deadlines
+        * Minimum spanning tree (Kruskal, Prim)
+        * Dijkstra's shortest path
+        * Coin change (minimum coins)
+        * Egyptian fraction
+
+33. Backtracking Algorithms
+    - Principle and approach
+    - N-Queens problem
+    - Sudoku solver
+    - Rat in maze
+    - Permutations and combinations
+    - Word search in 2D grid
+    - Knight's tour
+    - Hamiltonian cycle
+    - Graph coloring
+
+34. Graph Algorithms
+    - Breadth-First Search (BFS)
+    - Depth-First Search (DFS)
+    - Topological sorting (Kahn's algorithm, DFS-based)
+    - Strongly connected components (Kosaraju, Tarjan)
+    - Shortest path:
+        * Dijkstra's algorithm
+        * Bellman-Ford algorithm
+        * Floyd-Warshall algorithm
+        * A* algorithm
+    - Minimum spanning tree:
+        * Kruskal's algorithm
+        * Prim's algorithm
+    - Network flow:
+        * Ford-Fulkerson algorithm
+        * Edmonds-Karp algorithm
+        * Dinic's algorithm
+    - Bipartite matching
+    - Maximum matching in general graphs
+
+35. String Algorithms
+    - Pattern matching:
+        * Naive approach
+        * KMP (Knuth-Morris-Pratt) algorithm
+        * Boyer-Moore algorithm
+        * Rabin-Karp algorithm (rolling hash)
+        * Z-algorithm
+    - String manipulation:
+        * Longest common substring
+        * Longest palindromic substring
+        * Anagram problems
+        * Rotation of strings
+    - Trie-based algorithms
+    - Suffix array and suffix tree applications
+    - Regular expression matching
+
+36. Bit Manipulation Algorithms
+    - Bitwise operations and tricks
+    - Counting set bits
+    - Power of 2 check
+    - XOR applications
+    - Gray code
+    - Bit DP problems
+    - Subset generation using bits
+
+37. Mathematical Algorithms
+    - Number theory:
+        * GCD and LCM
+        * Prime numbers (Sieve of Eratosthenes, primality testing)
+        * Modular arithmetic
+        * Modular exponentiation
+        * Fermat's little theorem
+        * Chinese remainder theorem
+    - Combinatorics:
+        * Permutations and combinations
+        * Pascal's triangle
+        * Catalan numbers
+    - Algebra:
+        * Fast exponentiation
+        * Polynomial evaluation and interpolation
+        * Matrix operations
+    - Geometry:
+        * Point in polygon
+        * Convex hull (Graham's scan, Jarvis march)
+        * Line intersection
+        * Closest pair of points
+        * Computational geometry basics
+
+================================================================================
+PART 6: ADVANCED PROBLEM-SOLVING TECHNIQUES
+================================================================================
+
+38. Two Pointers Technique
+    - Moving window approach
+    - Convergent pointers
+    - Same-direction pointers
+    - Applications: container with most water, trapping rainwater
+
+39. Sliding Window Technique
+    - Fixed-size window
+    - Variable-size window
+    - Substring problems
+    - Subarray problems
+
+40. Recursion and Backtracking
+    - Base cases and recursive cases
+    - Stack overflow prevention
+    - Tail recursion
+    - Recursion tree analysis
+    - Memoization with recursion
+
+41. Segment Trees and Fenwick Trees
+    - Range sum queries
+    - Point updates
+    - Lazy propagation
+    - Applications in competitive programming
+
+42. Union-Find (Disjoint Set Union)
+    - Path compression
+    - Union by rank
+    - Applications: cycle detection, LCA
+
+43. Square Root Decomposition
+    - Handling range queries
+    - Block update operations
+    - Time complexity improvements
+
+44. Monotonic Stack and Queue
+    - Next greater element
+    - Previous smaller element
+    - Sliding window maximum
+    - Histogram largest rectangle
+
+================================================================================
+PART 7: SYSTEM PROGRAMMING AND OPTIMIZATION
+================================================================================
+
+45. Low-Level Programming
+    - Assembly language basics
+    - Inline assembly in C++
+    - Memory layout (stack, heap, code, data segments)
+    - Function call stack and frame pointers
+    - ABI (Application Binary Interface)
+
+46. Concurrency and Multithreading
+    - Thread creation and management
+    - Synchronization primitives (mutex, semaphore, condition variable)
+    - Race conditions and deadlocks
+    - Thread pools
+    - Atomic operations
+    - Lock-free programming basics
+    - Future and async
+
+47. Performance Optimization
+    - Profiling and benchmarking
+    - Cache optimization and locality
+    - SIMD and vectorization
+    - Compiler optimizations
+    - Memory access patterns
+    - Branch prediction and misprediction
+    - Time complexity analysis and optimization
+
+48. Code Quality and Best Practices
+    - SOLID principles
+    - Design patterns (Creational, Structural, Behavioral)
+    - Code reviews and refactoring
+    - Testing (unit tests, integration tests)
+    - Documentation and comments
+    - Coding standards and conventions
+
+================================================================================
+PART 8: COMPETITIVE PROGRAMMING AND PRACTICE
+================================================================================
+
+49. Common Interview Patterns
+    - Array problems
+    - String problems
+    - Tree problems
+    - Graph problems
+    - Dynamic programming problems
+    - Bit manipulation problems
+    - System design basics
+
+50. Online Platforms for Practice
+    - LeetCode
+    - HackerRank
+    - Codeforces
+    - AtCoder
+    - Project Euler
+    - GeeksforGeeks
+
+51. Common Problem Categories
+    - Array manipulation
+    - Matrix operations
+    - Linked list operations
+    - Tree traversals and modifications
+    - Graph connectivity and pathfinding
+    - Number manipulation and mathematics
+    - String processing and pattern matching
+    - Combinatorial problems
+    - Optimization problems
+
+================================================================================
+PART 9: SPECIALIZED TOPICS
+================================================================================
+
+52. Advanced Tree Structures
+    - Cartesian trees
+    - Link-cut trees
+    - Euler tour trees
+    - Heavy-light decomposition
+
+53. Advanced Graph Theory
+    - Maximum flow and minimum cut
+    - Bipartite matching and Hall's theorem
+    - Graph isomorphism
+    - Planarity testing
+    - Chromatic polynomial
+
+54. Advanced String Topics
+    - Aho-Corasick algorithm
+    - Manacher's algorithm
+    - Palindromic tree
+    - Lyndon factorization
+
+55. Mathematical Optimization
+    - Linear programming basics
+    - Convex hull tricks
+    - Ternary search
+    - CHT (Convex Hull Trick)
+
+56. Advanced Techniques in Competitive Programming
+    - Mo's algorithm
+    - Centroid decomposition
+    - Sqrt decomposition
+    - Contribution technique
+    - Meet in the middle
+
+================================================================================
+PART 10: REAL-WORLD APPLICATIONS AND PROJECTS
+================================================================================
+
+57. Database Implementation
+    - Index structures
+    - Query optimization
+    - Transaction management
+    - B-trees and B+ trees
+
+58. Game Development (Basic)
+    - Game loops
+    - Collision detection
+    - Pathfinding (A*, Dijkstra)
+    - Physics simulation basics
+
+59. Graphics Programming
+    - Rendering algorithms
+    - Coordinate transformations
+    - 3D graphics basics
+    - Spatial data structures for graphics
+
+60. Network Programming
+    - Sockets programming
+    - TCP/IP basics
+    - UDP programming
+    - HTTP protocol understanding
+
+61. Build Large Projects
+    - Building a file system
+    - Building a simple database
+    - Building a compiler/interpreter
+    - Building a game engine
+    - Building a web server
+
+================================================================================
+LEARNING STRATEGY RECOMMENDATIONS
+================================================================================
+
+Phase 1: C++ Fundamentals (Topics 1-8)
+- Duration: 2-3 weeks
+- Focus: Understanding basic syntax and concepts
+- Practice: Write simple programs using all features
+
+Phase 2: Object-Oriented Programming (Topics 9-15)
+- Duration: 2-3 weeks
+- Focus: Understanding OOP principles and design
+- Practice: Build small projects with classes and inheritance
+
+Phase 3: Advanced C++ (Topics 16-27)
+- Duration: 3-4 weeks
+- Focus: Templates, STL, memory management
+- Practice: Use STL effectively in programs
+
+Phase 4: Data Structures (Topics 24-27)
+- Duration: 4-5 weeks
+- Focus: Implement and understand each data structure
+- Practice: Code each data structure from scratch
+
+Phase 5: Algorithms (Topics 28-44)
+- Duration: 6-8 weeks
+- Focus: Learn algorithm paradigms and problem-solving
+- Practice: Solve 100+ algorithm problems
+
+Phase 6: Competitive Programming (Topics 49-56)
+- Duration: 4-6 weeks
+- Focus: Advanced problem-solving techniques
+- Practice: Participate in contests, solve hard problems
+
+Phase 7: Specialization (Choose topics based on interest)
+- Competitive programming focus
+- System programming focus
+- Game development focus
+- Real-world applications focus
+
+================================================================================
+RESOURCES FOR EACH TOPIC
+================================================================================
+
+Books:
+- "The C++ Programming Language" by Bjarne Stroustrup
+- "Effective C++" by Scott Meyers
+- "C++ Primer" by Lippman, Lajoie, Moo
+- "Introduction to Algorithms" by CLRS
+- "Competitive Programming" by Halim & Halim
+- "The Art of Computer Programming" by Knuth
+
+Online Resources:
+- cppreference.com (C++ documentation)
+- GeeksforGeeks (DSA tutorials)
+- LeetCode (practice problems)
+- Codeforces (contests and editorials)
+- YouTube channels: The Cherno (C++), William Fiset (DSA)
+
+================================================================================
+END OF ROADMAP
+================================================================================
+
+Notes:
+1. This roadmap is comprehensive and designed to take 6-12 months to complete
+2. Adjust learning pace based on your current knowledge and available time
+3. Code alongside learning - implement every concept you learn
+4. Join programming communities for help and motivation
+5. Practice problems regularly on platforms like LeetCode
+6. Participate in programming contests to apply your knowledge
+7. Build real projects to solidify understanding
+8. Review and revisit topics as needed
+9. Stay updated with new C++ standards and features
+10. Focus on understanding concepts deeply, not just memorizing
+
+Good luck on your C++ and DSA mastery journey!
