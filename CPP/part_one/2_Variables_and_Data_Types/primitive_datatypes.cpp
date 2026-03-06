@@ -56,7 +56,7 @@ int main() {
   double pi_precise = 3.14159265359;
   long double pi_very_precise = 3.14159265358979323846L;
 
-  cout << fixed << setprecision(10);
+//   cout << fixed << setprecision(10);
   cout << "float pi_approx = " << pi_approx << " (size: " << sizeof(float)
        << " bytes)" << endl;
   cout << "double pi_precise = " << pi_precise << " (size: " << sizeof(double)
